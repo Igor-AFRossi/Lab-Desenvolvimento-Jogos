@@ -618,7 +618,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Space Invaders
+  m_Text: Spaceship
 --- !u!222 &1621703353
 CanvasRenderer:
   m_ObjectHideFlags: 0

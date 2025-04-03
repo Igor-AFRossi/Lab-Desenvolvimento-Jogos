@@ -18,6 +18,7 @@ public class EnemyController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        controller = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
         
     }
 
@@ -28,10 +29,17 @@ public class EnemyController : MonoBehaviour
         //movimenta��o do inimigo 
         rb.linearVelocity = Vector3.left * speed;
 
-        
+        if (controller.slow)
+        {
+            speed = 1f;
+        }
+        else
+        {
+            speed = 2;
+
+        }
     }
 
-    
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

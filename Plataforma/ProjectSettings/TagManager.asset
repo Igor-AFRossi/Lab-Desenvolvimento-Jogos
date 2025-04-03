@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Ground
+  - Carrot
+  - Enemy
+  - Door
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Background
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Back
+    uniqueID: 3429129833
+    locked: 0
+  - name: Mid
+    uniqueID: 536601703
+    locked: 0
+  - name: Entity
+    uniqueID: 1880401971
+    locked: 0
+  - name: Plants
+    uniqueID: 3039590043
+    locked: 0
+  - name: Fore
+    uniqueID: 1355166453
+    locked: 0
+  m_RenderingLayers:
+  - Default
